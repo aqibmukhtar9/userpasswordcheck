@@ -1,0 +1,20 @@
+WRITE A PROGRAM THAT ASKS USERNAME TO INPUT USERNAME AND PASSWORD AND CHECK IT THEY ARE VALID OR NOT:
+
+
+#include<iostream>
+#include<string>
+using namespace std;
+int main(){
+	string admin="aqib" ,pass="2541",u,p;
+  cout<<"enter username and password";
+  cin>> u >> p;
+  if (u==admin){
+	  if (p==pass)
+      cout<<"valid";
+  }
+  else {
+	  cout<<"not valid";
+	    }
+	  system("pause");
+
+  }
